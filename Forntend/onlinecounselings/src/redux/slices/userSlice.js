@@ -1,7 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = "http://localhost:5111/api/users";  // Correct URL for user-related endpoints
+// const API_URL = "http://localhost:5111/api/users";  // Correct URL for user-related endpoints
+const API_URL = "https://project-capstonse-onlinecounselingsystem-pp1y.onrender.com/api/user";
 
 const initialState = {
     userInfo: null,

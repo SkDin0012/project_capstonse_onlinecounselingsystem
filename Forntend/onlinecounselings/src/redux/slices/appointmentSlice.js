@@ -2,7 +2,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = "http://localhost:5111/api/appointments";
+// const API_URL = "http://localhost:5111/api/appointments";
+const API_URL = "https://project-capstonse-onlinecounselingsystem-pp1y.onrender.com/api/appointments";
 
 const initialState = {
     appointments: [],

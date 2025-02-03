@@ -1,7 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = "http://localhost:5111/api/payments";
+// const API_URL = "http://localhost:5111/api/payments";
+const API_URL = "https://project-capstonse-onlinecounselingsystem-pp1y.onrender.com/api/payments";
 
 const initialState = {
   loading: false,
